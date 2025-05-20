@@ -25,7 +25,7 @@ root.render(
     <React.StrictMode>
             <BrowserRouter>
                 <QueryClientProvider client={queryClient}>
-                    <MantineProvider theme={theme} forceColorScheme={'dark'}>
+                    <MantineProvider theme={theme} forceColorScheme={'light'}>
                         <Notifications/>
                         <App/>
                     </MantineProvider>
